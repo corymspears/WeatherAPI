@@ -1,6 +1,6 @@
 const apiKey = '9a1a435b0270970d3d1b99ab132ab7c3';
 
-const baseURL = 'https://api.weatherstack.com/current';
+const baseURL = 'http://api.weatherstack.com/current';
 
 function takeInput() {
     var city = document.getElementById('cityinput').value;
