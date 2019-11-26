@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>What's the Weather?</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weather.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+
+    <div class="container">
+        <div class="pagetitle">
+            <img src="assets/WeatherAPITitle.png">
+        </div>
+        <div class="weatherpic">
+            <img src="" id="weatherpic"></img>
+        </div>
+        <div id="temp"></div>
+        <div id="description"></div>
+        <div class="inputandbtn">
+            <input id="cityinput"> 
+            <button onclick="getWeather()" id="gobtn"><span>Go!</button>
+        </div>
+    </div>    
+
+        <script src="weather.js"></script>
+    </body>
+
+    <footer id="footer">Copyright © 2019 Cory Spears</footer>
+</html>

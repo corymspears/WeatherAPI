@@ -1,0 +1,98 @@
+#body {
+    background: url("Assets/grungebackground.jpeg");
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.pagetitle {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#description {
+    padding-bottom: 70px;
+}
+
+.inputandbtn {
+    float: center;
+    clear: none; 
+}
+
+#cityinput {
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    height: 60px;
+    font-size: 40px;
+    float: center;
+    clear: none; 
+}
+
+#gobtn {
+    border-radius: 5px;
+    background: linear-gradient(to right,#d8247c, #25a9f0) !important;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+    float: center;
+    clear: none; 
+  }
+
+  #gobtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+
+  #gobtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  #gobtn:hover span {
+    padding-right: 25px;
+  }
+
+  #gobtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .weatherpic {
+    padding-bottom: 20px;
+  }
+
+  #temp {
+    padding-bottom: 20px;
+  }
+
+  #description {
+    padding-bottom: 50px;
+  }
+
+  #footer {
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 16px;
+    bottom: 0;
+    width: 100%;
+  }
